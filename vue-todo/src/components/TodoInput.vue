@@ -8,7 +8,6 @@
     <modal v-if="showModal" @close="showModal = false">
       <h3 slot="header">잠깐!</h3>
       <div slot="footer" >할일을 입력하세요 <i class="closeModalBtn fas fa-times" aria-hidden="true" @click="showModal = false"></i></div>
-
     </modal>
   </div>
 

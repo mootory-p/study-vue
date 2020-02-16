@@ -1,22 +1,16 @@
 <template>
-  <div class="text-center m-3 clearAll">
-    <span class="clearAllBtn" @click="clearTodo">
-      Clear All
-    </span></div>
+   <div class="text-center m-3 clearAll">
+     <span class="clearAllBtn" @click="clearTodo">Clear All</span>
+    </div>
 </template>
-
-
 <script>
   export default {
-
     methods: {
       clearTodo() {
         this.$emit('removeAll')
       }
     }
-
   }
-
 </script>
 
 
